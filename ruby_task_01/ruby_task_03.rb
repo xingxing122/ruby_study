@@ -1,8 +1,8 @@
 # 变量
 class Apple 
   @@from = 'china'
- def color = color 
-   @color color 
+ def color= color 
+   @color = color 
  end 
 
  def color 

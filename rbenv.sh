@@ -7,6 +7,8 @@ source .bashrc
 #ruby install 
 sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
 rbenv install 2.3.1
-echo "eval "$(rbenv init -)"" >> ~/.bashrc 
+echo "eval "$(rbenv init -)"" >> ~/.bashrc  
+source .bashrc 
+rbenv global 2.3.1 
 
 
