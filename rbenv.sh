@@ -1,4 +1,5 @@
 #!/bin/bash 
+sudo apt-get install git 
 # rbenv install 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -11,4 +12,5 @@ echo "eval "$(rbenv init -)"" >> ~/.bashrc
 source .bashrc 
 rbenv global 2.3.1 
 
-
+#查看安装版本
+#rbenv install --list 
